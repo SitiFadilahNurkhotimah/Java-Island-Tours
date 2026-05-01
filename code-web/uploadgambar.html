@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Gambar</title>
+</head>
+<body>
+    <h2>Upload Gambar Destinasi</h2>
+    <form action="upload_proses.php" method="post" enctype="multipart/form-data">
+        Nama Destinasi: <input type="text" name="nama_destinasi" required><br><br>
+        Kota: <input type="text" name="kota" required><br><br>
+        Provinsi: <input type="text" name="provinsi" required><br><br>
+        Kategori: <select name="id_kategori" required>
+            <option value="1">Wisata Budaya</option>
+            <option value="2">Wisata Alam</option>
+            <option value="3">Wisata Petualangan</option>
+            <option value="4">Wisata Religius</option>
+        </select><br><br>
+        Deskripsi: <textarea name="deskripsi" required></textarea><br><br>
+        Pilih Gambar: <input type="file" name="gambar" accept="image/*" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
