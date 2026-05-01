@@ -8,3 +8,5 @@ Telah mengembangkan situs _travel agency_ yang fungsional menggunakan PHP dan VS
 - Ayda Syifa Ul Aliyah              
 - Oki Ramadhan Pramono    
 - Septiani Amalia Wulandari 
+
+_© 2025 Siti Fadilah Nurkhotimah. All rights reserved. Dokumen ini disusun untuk kepentingan portofolio akademik._
